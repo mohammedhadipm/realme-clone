@@ -71,10 +71,6 @@ body {
     text-decoration: none;
 }
 
-.nav-active {
-    color: #ff6b00 !important;
-}
-
 .search-input-container {
     position: relative;
     width: 170px;
@@ -106,7 +102,7 @@ body {
 .search-icon {
     position: absolute;
 
-    width: 200px;
+    width: 1px;
 
     right: -85px;
     top: 50%;
