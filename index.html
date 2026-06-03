@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>realme Official Website (India) - Make it real</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+
+      
+      <div class="header">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/realme-logo-white.svg" width="89">
+          </a>
+        </div>
+        <div class="nav">
+          <div class="nav-left">
+            <a href="">Store</a>
+            <a href="">New Launch</a>
+            <a href="">Phone</a>
+            <a href="">Audio</a>
+            <a href="" class="nav-active">Accessories</a>
+          </div>
+          <div class="nav-right">
+            <a href="">Community</a>
+            <a href="">Support</a>
+            <a href="">realme UI</a>
+            <div class="search-input-container">
+              <input type="text" class="search-input" placeholder="Search" maxlength="30">
+              <img class="search-icon" src="img/search-icon.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="hero">
+        
+        <div class="slide active" id="slide-1">
+          <img class="realmep4" src="img/banner.webp">
+          <div class="hero-content">
+            <img class="p4-logo" src="img/realmep45g.svg">
+            <h1>India's First & Biggest 10001mAh <br>Battery Smartphone</h1>
+            <p>
+              Hyper Vision+AI Chip | MediaTek Dimensity 7400 Ultra <br>
+              Sony 50MP OIS Main Camera <br>
+              144 Hz Curved Amoled
+            </p>
+            <div class="hero-buttons">
+              <button class="buy-btn">Buy Now</button>
+              <button class="learn-btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="slide" id="slide-2">
+          <img class="realmep4" src="img/banner2.jpg">
+          <div class="hero-content">
+            <h1 style="font-size:32px;">AI Portrait Star<br>Dual 50MP Front Camera</h1>
+            <p>
+              7000mAh Titan Battery <br>
+              IP69 Pro-Level Water Resistance <br>
+              realme 16 5G
+            </p>
+            <div class="hero-buttons">
+              <button class="buy-btn">Buy Now</button>
+              <button class="learn-btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="slide" id="slide-3">
+          <img class="realmep4" src="img/banner3.webp">
+          <div class="hero-content">
+            <h1 style="font-size:32px;">RACE YOUR OWN WAY<br>GT 8 Pro Dream Edition</h1>
+            <p>
+              Camera Powered by RICOH GR <br>
+              Snapdragon 8 Elite Gen 5 Dual Chipset <br>
+              200MP Ultra Clarity Telephoto
+            </p>
+            <div class="hero-buttons">
+              <button class="buy-btn">Buy Now</button>
+              <button class="learn-btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+      
+        <div class="slider-dots">
+          <span class="dot active" onclick="goToSlide(0)"></span>
+          <span class="dot" onclick="goToSlide(1)"></span>
+          <span class="dot" onclick="goToSlide(2)"></span>
+        </div>
+
+        
+        <button class="slider-arrow slider-prev" onclick="changeSlide(-1)">&#8249;</button>
+        <button class="slider-arrow slider-next" onclick="changeSlide(1)">&#8250;</button>
+      </div>
+
+      
+      <div class="product-banners">
+        <div class="product-banner-card">
+          <img src="img/events-banner.jpg" alt="Events by realme">
+          <div class="banner-card-text">
+            <p class="banner-card-subtitle">Events by realme</p>
+            <p class="banner-card-desc">Explore the latest events from realme</p>
+          </div>
+        </div>
+        <div class="product-banner-card">
+          <img src="img/buds-banner.jpg" alt="realme Buds Air8 Pro">
+          <div class="banner-card-text">
+            <p class="banner-card-subtitle">realme Buds Air8 Pro</p>
+            <p class="banner-card-desc">The Master of Silence &amp; Sound</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="explore-section">
+        <h2 class="section-title">Explore</h2>
+        <div class="explore-grid">
+          <div class="explore-card">
+            <img src="img/explore-photography.jpg" alt="Photography Awards">
+            <div class="explore-card-text">
+              <p class="explore-tag">REALME PHOTOGRAPHY AWARDS</p>
+              <p class="explore-desc">Share Your Real Moment</p>
+              <a href="" class="explore-learn">Learn More</a>
+            </div>
+          </div>
+          <div class="explore-card">
+            <img src="img/explore-about.jpg" alt="About realme">
+            <div class="explore-card-text">
+              <p class="explore-tag">About realme</p>
+              <p class="explore-desc">Make it real.</p>
+              <a href="" class="explore-learn">Learn More</a>
+            </div>
+          </div>
+          <div class="explore-card">
+            <img src="img/explore-nextai.jpg" alt="realme NEXT Ai">
+            <div class="explore-card-text">
+              <p class="explore-tag">realme NEXT Ai</p>
+              <p class="explore-desc">Make Ai Phones Accessible to Everyone</p>
+              <a href="" class="explore-learn">Learn More</a>
+            </div>
+          </div>
+          <div class="explore-card">
+            <img src="img/explore-ui7.jpg" alt="realme UI 7.0">
+            <div class="explore-card-text">
+              <p class="explore-tag">realme UI 7.0</p>
+              <p class="explore-desc">SMART. SMOOTH. EASE.</p>
+              <a href="" class="explore-learn">Learn More</a>
+            </div>
+          </div>
+          <div class="explore-card">
+            <img src="img/explore-voice.jpg" alt="Your Voice That Matters">
+            <div class="explore-card-text">
+              <p class="explore-tag">Your Voice That Matters</p>
+              <p class="explore-desc">Android OS &amp; Software Maintenance Now Update</p>
+              <a href="" class="explore-learn">Learn More</a>
+            </div>
+          </div>
+          <div class="explore-card">
+            <img src="img/explore-exchange.jpg" alt="realme Exchange">
+            <div class="explore-card-text">
+              <p class="explore-tag">realme Exchange</p>
+              <p class="explore-desc">Even Greater Value with Deferred Exchange</p>
+              <a href="" class="explore-learn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="collab-section">
+        <h2 class="section-title">realme CollabVerse</h2>
+        <div class="collab-grid">
+          <div class="collab-item"><img src="img/collab1.webp" alt="collab 1"><span>01</span></div>
+          <div class="collab-item"><img src="img/collab2.webp" alt="collab 2"><span>02</span></div>
+          <div class="collab-item"><img src="img/collab3.webp" alt="collab 3"><span>03</span></div>
+          <div class="collab-item"><img src="img/collab4.webp" alt="collab 4"><span>04</span></div>
+          <div class="collab-item"><img src="img/collab5.webp" alt="collab 5"><span>05</span></div>
+          <div class="collab-item"><img src="img/collab6.webp" alt="collab 6"><span>06</span></div>
+          <div class="collab-item"><img src="img/collab7.webp" alt="collab 7"><span>07</span></div>
+        </div>
+      </div>
+
+      
+      <div class="register-section">
+        <div class="register-content">
+          <h2>Register &amp; Receive</h2>
+          <div class="register-benefits">
+            <div class="register-benefit">
+              <img src="img/icon-products.svg" alt="">
+              <div>
+                <p class="benefit-title">Full Range Of Products</p>
+                <p class="benefit-desc">All realme latest updates</p>
+              </div>
+            </div>
+            <div class="register-benefit">
+              <img src="img/icon-offers.svg" alt="">
+              <div>
+                <p class="benefit-title">Exclusive Offers</p>
+                <p class="benefit-desc">Exclusive realmer benefits and events</p>
+              </div>
+            </div>
+          </div>
+          <div class="register-links">
+            <a href="" class="register-link-card">
+              <span class="rl-title">realme Coins Reward</span>
+              <span class="rl-desc">₹1 Spent = 1 realme Coin (Above ₹25,000)</span>
+            </a>
+            <a href="" class="register-link-card">
+              <span class="rl-title">realme VIP</span>
+              <span class="rl-desc">Enjoy Exclusive VIP Benefits</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="trust-strip">
+        <div class="trust-item">
+          <img src="img/icon-shipping.svg" alt="">
+          <span>Free shipping</span>
+        </div>
+        <div class="trust-item">
+          <img src="img/icon-payment.svg" alt="">
+          <span>Secure payment</span>
+        </div>
+        <div class="trust-item">
+          <img src="img/icon-cod.svg" alt="">
+          <span>Cash On Delivery</span>
+        </div>
+        <div class="trust-item">
+          <img src="img/icon-warranty.svg" alt="">
+          <span>Warranty Policy</span>
+        </div>
+      </div>
+
+      
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-col">
+            <h4>Products</h4>
+            <a href="">realme Phones</a>
+            <a href="">Smartwatch</a>
+            <a href="">Buds</a>
+            <a href="">Accessories</a>
+            <a href="">realme Care+</a>
+          </div>
+          <div class="footer-col">
+            <h4>Programs</h4>
+            <a href="">Student Program</a>
+            <a href="">VIP Club</a>
+            <a href="">Exchange Program</a>
+            <a href="">realme Coins</a>
+            <a href="">realme NEXT AI</a>
+            <a href="">Viral Vibe Star</a>
+          </div>
+          <div class="footer-col">
+            <h4>Support</h4>
+            <a href="">FAQ</a>
+            <a href="">Contact Us</a>
+            <a href="">User Guide</a>
+            <a href="">User Manuals</a>
+            <a href="">Warranty Policy</a>
+            <a href="">Service Centers</a>
+            <a href="">UI 6.0</a>
+            <a href="">UI 7.0</a>
+          </div>
+          <div class="footer-col">
+            <h4>About realme</h4>
+            <a href="">Our Brand</a>
+            <a href="">Community</a>
+            <a href="">App Download</a>
+            <a href="">Retail Store</a>
+            <a href="">Newsroom</a>
+            <a href="">realmeow</a>
+            <a href="">Declaration and Disclosure</a>
+          </div>
+          <div class="footer-col footer-contact">
+            <h4>Contact</h4>
+            <a href="tel:18001022777" class="footer-phone">1800 102 2777</a>
+            <p class="footer-hours">9:00-21:00, MON-SUN<br>Including Holidays</p>
+            <div class="footer-socials">
+              <a href="https://www.facebook.com/realmeIndia/" target="_blank">
+                <img src="img/icon-fb.svg" alt="Facebook">
+              </a>
+              <a href="https://twitter.com/realmeIndia" target="_blank">
+                <img src="img/icon-twitter.svg" alt="Twitter">
+              </a>
+              <a href="https://www.youtube.com/realmemobiles" target="_blank">
+                <img src="img/icon-yt.svg" alt="YouTube">
+              </a>
+              <a href="https://www.instagram.com/realmeindia/" target="_blank">
+                <img src="img/icon-ig.svg" alt="Instagram">
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=919711012312" target="_blank">
+                <img src="img/icon-wa.svg" alt="WhatsApp">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-copy">© 2018-2026 realme. All Rights Reserved.</p>
+          <div class="footer-legal">
+            <a href="">E-waste Management</a>
+            <a href="">Integrity and Anti-corruption</a>
+            <a href="">User Agreement</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Sales</a>
+            <a href="">Warranty Terms</a>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script>
+      let currentSlide = 0;
+      const slides = document.querySelectorAll('.slide');
+      const dots = document.querySelectorAll('.dot');
+
+      function goToSlide(n) {
+        slides[currentSlide].classList.remove('active');
+        dots[currentSlide].classList.remove('active');
+        currentSlide = (n + slides.length) % slides.length;
+        slides[currentSlide].classList.add('active');
+        dots[currentSlide].classList.add('active');
+      }
+
+      function changeSlide(dir) {
+        goToSlide(currentSlide + dir);
+      }
+      setInterval(() => changeSlide(1), 5000);
+    </script>
+  </body>
+</html>
